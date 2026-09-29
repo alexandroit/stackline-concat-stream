@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/concat-stream.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/concat-stream)
 [![license](https://img.shields.io/npm/l/@stackline/concat-stream.svg?style=flat-square)](https://github.com/alexandroit/stackline-concat-stream)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-concat-stream-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-concat-stream)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-concat-stream)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/concat-stream/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/concat-stream/)** | **[npm](https://www.npmjs.com/package/@stackline/concat-stream)** | **[Issues](https://github.com/alexandroit/stackline-concat-stream/issues)** | **[Repository](https://github.com/alexandroit/stackline-concat-stream)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/concat-stream@1.0.1` |
+| Package | `@stackline/concat-stream@1.0.2` |
 | API target | `concat-stream@2.0.0` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
