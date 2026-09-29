@@ -1,0 +1,22 @@
+{
+  "repository": "alexandroit/stackline-concat-stream",
+  "packages": [
+    {
+      "name": "@stackline/concat-stream",
+      "path": "readme.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "concat-stream",
+        "streams"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/concat-stream/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/concat-stream/-/concat-stream-1.0.0.tgz",
+      "baselineIntegrity": "sha512-VEVyyBy34KO3sQd5D8y4v0q+PnCMSPyvqI8U+1S679ueEMV9g3v4Aos71Af56L4EmCPZuSuVYN/GMS1pyMkuKQ==",
+      "expectedSha512": "27ac239b0c23079df1020c47b1a6f67e0e90c746ed221ee4772185c9981ccd169da47c7575382f2651d8ca7c36134ea3a932765ab818a3289a5486df6f0b3661",
+      "tag": "docs-stackline-concat-stream-v1.0.1"
+    }
+  ]
+}
