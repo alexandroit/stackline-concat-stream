@@ -1,10 +1,51 @@
-# concat-stream
+# @stackline/concat-stream
+
+> writable stream that concatenates strings or binary data and calls a callback with the result.
+
+[![npm version](https://img.shields.io/npm/v/@stackline/concat-stream.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/concat-stream)
+[![license](https://img.shields.io/npm/l/@stackline/concat-stream.svg?style=flat-square)](https://github.com/alexandroit/stackline-concat-stream)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-concat-stream-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-concat-stream)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/concat-stream/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/concat-stream/)** | **[npm](https://www.npmjs.com/package/@stackline/concat-stream)** | **[Issues](https://github.com/alexandroit/stackline-concat-stream/issues)** | **[Repository](https://github.com/alexandroit/stackline-concat-stream)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/concat-stream` is the Stackline-maintained distribution of `concat-stream@2.0.0`. It is an independent continuation of [concat-stream](https://github.com/maxogden/concat-stream); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/concat-stream@1.0.1` |
+| API target | `concat-stream@2.0.0` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Main entry | `index.js` |
+| Runtime dependencies | `buffer-from, inherits, readable-stream, typedarray` |
+
+## Installation
+
+```bash
+npm install @stackline/concat-stream
+```
+
+Preserve existing imports and plugin resolution with an npm alias:
+
+```bash
+npm install concat-stream@npm:@stackline/concat-stream
+```
+
+## Usage and API reference
 
 Writable stream that concatenates all the data from a stream and calls a callback with the result. Use this when you want to collect all the data from a stream into a single buffer.
 
-[![Build Status](https://travis-ci.org/maxogden/concat-stream.svg?branch=master)](https://travis-ci.org/maxogden/concat-stream)
 
-[![NPM](https://nodei.co/npm/concat-stream.png)](https://nodei.co/npm/concat-stream/)
 
 ### description
 
@@ -24,7 +65,7 @@ There are also `objectMode` streams that emit things other than Buffers, and you
 
 ```js
 var fs = require('fs')
-var concat = require('concat-stream')
+var concat = require('@stackline/concat-stream')
 
 var readStream = fs.createReadStream('cat.png')
 var concatStream = concat(gotPicture)
@@ -67,10 +108,10 @@ write.end(Buffer.from('!!1'))
 
 See `test/` for more examples
 
-# methods
+### methods
 
 ```js
-var concat = require('concat-stream')
+var concat = require('@stackline/concat-stream')
 ```
 
 ## var writable = concat(opts={}, cb)
@@ -91,12 +132,35 @@ If you don't specify an encoding, and the types can't be inferred (e.g. you writ
 
 If nothing is written to `writable` then `data` will be an empty array `[]`.
 
-# error handling
+### error handling
 
 `concat-stream` does not handle errors for you, so you must handle errors on whatever streams you pipe into `concat-stream`. This is a general rule when programming with node.js streams: always handle errors on each and every stream. Since `concat-stream` is not itself a stream it does not emit errors.
 
 We recommend using [`end-of-stream`](https://npmjs.org/end-of-stream) or [`pump`](https://npmjs.org/pump) for writing error tolerant stream code.
 
-# license
+### license
 
 MIT LICENSE
+
+## Credits and original authors
+
+- Original project: [concat-stream](https://github.com/maxogden/concat-stream).
+- Max Ogden.
+- Copyright (c) 2013 Max Ogden.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## License
+
+`MIT`. See the license and notice files in the [repository](https://github.com/alexandroit/stackline-concat-stream).
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.

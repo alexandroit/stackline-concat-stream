@@ -1,6 +1,6 @@
 {
   "name": "@stackline/concat-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "writable stream that concatenates strings or binary data and calls a callback with the result",
   "tags": [
     "stream",
@@ -52,8 +52,14 @@
       "android-browser/4.2..latest"
     ]
   },
-  "homepage": "https://github.com/alexandroit/stackline-concat-stream#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/concat-stream/",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "stackline",
+    "npm-package",
+    "concat-stream",
+    "streams"
+  ]
 }
