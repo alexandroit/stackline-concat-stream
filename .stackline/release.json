@@ -1,0 +1,13 @@
+{
+  "slug": "concat-stream",
+  "upstream": "concat-stream",
+  "upstreamVersion": "2.0.0",
+  "upstreamIntegrity": "sha512-MWufYdFw53ccGjCA+Ol7XJYpAlW6/prSMzuPOTRnJGcGzuhLn4Scrz7qf6o8bROZ514ltazcIFJZevcfbo0x7A==",
+  "upstreamCommit": "ceaa101bd2e19c5878a98dd6cb875108f49bf5c5",
+  "sourcePackageDirectory": ".",
+  "overlays": {},
+  "tests": [
+    "npm ci --ignore-scripts",
+    "npm test"
+  ]
+}

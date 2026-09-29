@@ -1,0 +1,5 @@
+Independent maintenance fork of concat-stream 2.0.0.
+Original copyright, author attribution, and license files are retained unchanged.
+Upstream: https://github.com/maxogden/concat-stream
+Base commit: ceaa101bd2e19c5878a98dd6cb875108f49bf5c5
+Stackline is not affiliated with or endorsed by upstream maintainers.

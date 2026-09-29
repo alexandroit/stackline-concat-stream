@@ -1,0 +1,121 @@
+{
+  "checkedAt": "2026-09-29T00:21:59.613145+00:00",
+  "upstreamRepository": "maxogden/concat-stream",
+  "coverage": "Most recently updated 100 open and 30 closed issue/PR entries; PRs removed. This is triage evidence, not a claim of exhaustive review.",
+  "openIssues": [
+    {
+      "number": 69,
+      "title": "Drop polyfills in a next semver major?",
+      "url": "https://github.com/max-mapper/concat-stream/issues/69"
+    },
+    {
+      "number": 68,
+      "title": "Stream consumers: Alternative builtin nodejs solution",
+      "url": "https://github.com/max-mapper/concat-stream/issues/68"
+    },
+    {
+      "number": 64,
+      "title": "How big is the difference from 1.6.* to 2.* ?",
+      "url": "https://github.com/max-mapper/concat-stream/issues/64"
+    },
+    {
+      "number": 42,
+      "title": "Convert to real stream",
+      "url": "https://github.com/max-mapper/concat-stream/issues/42"
+    },
+    {
+      "number": 58,
+      "title": "Buffer constructor runtime deprecation - this package emits a warning on Node 10",
+      "url": "https://github.com/max-mapper/concat-stream/issues/58"
+    },
+    {
+      "number": 57,
+      "title": "Buffer overread vulnerability",
+      "url": "https://github.com/max-mapper/concat-stream/issues/57"
+    },
+    {
+      "number": 37,
+      "title": "Use standard, error-first callbacks",
+      "url": "https://github.com/max-mapper/concat-stream/issues/37"
+    },
+    {
+      "number": 41,
+      "title": "Use end-of-stream to determine end",
+      "url": "https://github.com/max-mapper/concat-stream/issues/41"
+    },
+    {
+      "number": 15,
+      "title": "v2 ideas",
+      "url": "https://github.com/max-mapper/concat-stream/issues/15"
+    },
+    {
+      "number": 31,
+      "title": "concat-stream - buffer object in callback is empty.",
+      "url": "https://github.com/max-mapper/concat-stream/issues/31"
+    },
+    {
+      "number": 19,
+      "title": "New encoding auto-detection + streams2 change problem case",
+      "url": "https://github.com/max-mapper/concat-stream/issues/19"
+    }
+  ],
+  "recentClosedIssues": [
+    {
+      "number": 66,
+      "title": "Is this package still maintained? ",
+      "url": "https://github.com/max-mapper/concat-stream/issues/66"
+    },
+    {
+      "number": 49,
+      "title": "Bump readable-stream version to 2.1.x",
+      "url": "https://github.com/max-mapper/concat-stream/issues/49"
+    },
+    {
+      "number": 56,
+      "title": "Buffer Overhead Vulnerability",
+      "url": "https://github.com/max-mapper/concat-stream/issues/56"
+    },
+    {
+      "number": 55,
+      "title": "Security Vulnerability",
+      "url": "https://github.com/max-mapper/concat-stream/issues/55"
+    },
+    {
+      "number": 50,
+      "title": "Callback never fired if read stream emits an error",
+      "url": "https://github.com/max-mapper/concat-stream/issues/50"
+    },
+    {
+      "number": 38,
+      "title": "introduce Readable and Duplex concat streams",
+      "url": "https://github.com/max-mapper/concat-stream/issues/38"
+    },
+    {
+      "number": 35,
+      "title": "CI",
+      "url": "https://github.com/max-mapper/concat-stream/issues/35"
+    },
+    {
+      "number": 28,
+      "title": "git tags",
+      "url": "https://github.com/max-mapper/concat-stream/issues/28"
+    },
+    {
+      "number": 20,
+      "title": "Cannot pipe. Not readable.",
+      "url": "https://github.com/max-mapper/concat-stream/issues/20"
+    },
+    {
+      "number": 33,
+      "title": "handling errors",
+      "url": "https://github.com/max-mapper/concat-stream/issues/33"
+    },
+    {
+      "number": 29,
+      "title": "Stream empty for concatenated passthrough streams",
+      "url": "https://github.com/max-mapper/concat-stream/issues/29"
+    }
+  ],
+  "decision": "Maintenance adoption with preserved runtime payload. No runtime defect correction is claimed. Reports remain visible for subsequent targeted reproduction.",
+  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+}
